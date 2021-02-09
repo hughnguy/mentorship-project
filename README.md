@@ -20,7 +20,6 @@ Remove a nominee from the nomination list
 - If a search result has already been nominated, disable its nominate button.
 Display a banner when the user has 5 nominations.
 
-
 ### Extras
 
 There is a lot to be improved on here, you can polish the required features by crafting a nicer design, or improve the app by adding new features! Choose something that you feel best showcases your passion and skills.
