@@ -1,0 +1,1 @@
+The front-end client of this movie database application
