@@ -1,23 +1,20 @@
-import React from 'react';
-import {
-    Switch,
-    Route,
-} from 'react-router-dom';
-import {Home} from './pages/Home';
-import {Example} from './pages/Example';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Movies } from "./pages/Movies";
 
 const HOME_ROUTE = "/";
-const EXAMPLE_ROUTE = "/example";
+const MOVIES_ROUTE = "/movies";
 
 export const Router = () => {
-    return (
-        <Switch>
-            <Route path={EXAMPLE_ROUTE}>
-                <Example/>
-            </Route>
-            <Route path={HOME_ROUTE}>
-                <Home/>
-            </Route>
-        </Switch>
-    );
+  return (
+    <Switch>
+      <Route path={MOVIES_ROUTE}>
+        <Movies />
+      </Route>
+      <Route path={HOME_ROUTE}>
+        <Home />
+      </Route>
+    </Switch>
+  );
 };

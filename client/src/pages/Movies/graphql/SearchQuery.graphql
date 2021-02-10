@@ -1,0 +1,14 @@
+# query Rates($currency: String!) {
+#     rates(currency: $currency) {
+#         currency
+#     }
+# }
+
+query Search($term: String!) {
+  search(apiKey: "430c3bc5", searchTerm: $term) {
+    movies {
+      title
+      year
+    }
+  }
+}
